@@ -1,0 +1,12 @@
+Metric,Value
+Accuracy,0.7008
+Precision,0.6838
+Recall,0.7046
+F1-Score,0.6941
+Macro Precision,0.7006
+Macro Recall,0.7009
+Macro F1-Score,0.7006
+Train Size,"80,668"
+Test Size,"20,168"
+Total Size,"100,836"
+Evaluation Date,2026-10-30T06:43:41.259215+00:00

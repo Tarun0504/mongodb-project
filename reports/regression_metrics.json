@@ -1,0 +1,8 @@
+{
+  "model": "DecisionTreeRegressor",
+  "mae": 0.6787,
+  "rmse": 0.8935,
+  "r2_score": 0.2632,
+  "train_size": 80668,
+  "test_size": 20168
+}

@@ -1,0 +1,96 @@
+{
+  "model_name": "DecisionTreeClassifier",
+  "dataset_version": "ml-latest-small",
+  "accuracy": 0.7008,
+  "precision": 0.6838,
+  "recall": 0.7046,
+  "f1_score": 0.6941,
+  "precision_macro": 0.7006,
+  "recall_macro": 0.7009,
+  "f1_macro": 0.7006,
+  "confusion_matrix": [
+    [
+      7287,
+      3165
+    ],
+    [
+      2870,
+      6846
+    ]
+  ],
+  "classification_report": {
+    "Not Liked": {
+      "precision": 0.7174362508614749,
+      "recall": 0.697187141216992,
+      "f1-score": 0.7071667717987287,
+      "support": 10452.0
+    },
+    "Liked": {
+      "precision": 0.6838477674557987,
+      "recall": 0.7046109510086456,
+      "f1-score": 0.694074111623663,
+      "support": 9716.0
+    },
+    "accuracy": 0.7007635858786196,
+    "macro avg": {
+      "precision": 0.7006420091586367,
+      "recall": 0.7008990461128188,
+      "f1-score": 0.7006204417111959,
+      "support": 20168.0
+    },
+    "weighted avg": {
+      "precision": 0.701254889062112,
+      "recall": 0.7007635858786196,
+      "f1-score": 0.7008593399135176,
+      "support": 20168.0
+    }
+  },
+  "feature_importance": {
+    "movie_avg_rating": 0.569544,
+    "user_avg_rating": 0.341073,
+    "movie_log_count": 0.027679,
+    "user_log_count": 0.018938,
+    "user_rating_count": 0.016182,
+    "movie_rating_count": 0.012135,
+    "genre_drama": 0.003428,
+    "genre_action": 0.002247,
+    "genre_thriller": 0.002019,
+    "genre_comedy": 0.001809,
+    "genre_adventure": 0.001444,
+    "genre_sci_fi": 0.000909,
+    "genre_fantasy": 0.00079,
+    "genre_children": 0.00061,
+    "genre_crime": 0.00051,
+    "genre_horror": 0.000233,
+    "genre_mystery": 0.000189,
+    "genre_romance": 0.000152,
+    "genre_war": 0.000109,
+    "genre_animation": 0.0,
+    "genre_documentary": 0.0,
+    "genre_film_noir": 0.0,
+    "genre_imax": 0.0,
+    "genre_musical": 0.0,
+    "genre_western": 0.0
+  },
+  "train_size": 80668,
+  "test_size": 20168,
+  "total_size": 100836,
+  "positive_class_threshold": 4.0,
+  "random_seed": 42,
+  "model_params": {
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 12,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 50,
+    "min_samples_split": 100,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "evaluation_date": "2026-10-30T06:43:41.259215+00:00"
+}
